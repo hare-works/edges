@@ -19,22 +19,22 @@ default=[]
 bevy=["dep:bevy"]
 
 [dependencies]
-glam = "0.25.0"
+glam = "0.28.0"
 hashbrown = "0.14.5"
-image = "0.24.9"
+image = "0.25.1"
 mashmap = "0.1.1"
-ordered-float = "4.2.0"
-thiserror = "1.0.57"
+ordered-float = "4.2.1"
+thiserror = "1.0.61"
 
 [dependencies.bevy]
-version = "0.13.0"
+version = "0.14.0"
 default-features = false
 features = ["bevy_render"]
 optional = true
 
 [dev-dependencies]
 raqote = "0.8.4"
-open = "5.1.2"
+open = "5.2.0"
 
 [[example]]
 name = "bevy-image"
